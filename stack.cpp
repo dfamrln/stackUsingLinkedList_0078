@@ -65,5 +65,9 @@ public:
             return; // of the stack is empty, print a message and return
         }
         else
+        {
+            Node *current = top;
+            while (current != NULL)
+        }
     }
 }
