@@ -55,4 +55,7 @@ public:
         top = temp->next; // update the top pointer to the next node
         temp = nullptr;
     }
+
+    // peek/top operation: retrieve the value of the topmost element without removing it
+    void peek()
 }
