@@ -47,5 +47,9 @@ public:
     {
          Node* temp = top; // create a temporary pointer to the current top node
         if (isEmpty())
+        {
+            cout << "Stack is empty." << endl;
+            return; // update the top pointer to the next node
+        }
     }
 }
