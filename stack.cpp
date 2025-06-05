@@ -60,5 +60,9 @@ public:
     void peek()
     {
         if (isEmpty())
+        {
+            cout << "List is empty." << endl;
+            return; // of the stack is empty, print a message and return
+        }
     }
 }
