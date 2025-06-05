@@ -51,5 +51,8 @@ public:
             cout << "Stack is empty." << endl;
             return; // update the top pointer to the next node
         }
+        cout << "Popped value: " << temp->data << endl;
+        top = temp->next; // update the top pointer to the next node
+        temp = nullptr;
     }
 }
